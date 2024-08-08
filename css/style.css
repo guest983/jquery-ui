@@ -1,0 +1,173 @@
+#draggable{
+    width: 150px; 
+    height: 150px; 
+    padding: 0.5em;
+    background-color: cornsilk;
+}
+#drag_me{
+    width: 100px;
+    height: 100px; 
+    padding: 0.5em; 
+    float: left;
+    margin: 10px 10px 10px 0;
+}
+#droppable{
+    width: 150px; 
+    height: 150px; 
+    padding: 0.5em;
+    float: left; 
+    margin: 10px;
+}
+.container-5 {
+    margin: 50px 0px;
+}
+#resizable {
+     width: 250px; 
+     height: 250px; 
+     padding:0;
+     }
+
+#resizable h3 {
+     text-align: center;
+      margin: 0; 
+      color: brown;
+    }
+
+    .container-6 {
+        margin-bottom: 25px;
+    }
+
+    #animate {
+        width: 250px; 
+        height: 250px; 
+        padding: 0.5em; 
+    }
+
+    #animate h3 { 
+        text-align: center; 
+        margin: 0; 
+    }
+
+  .ui-resizable-helper { 
+    border: 1px dotted gray; 
+}
+.ui-widget-header {
+    border: 1px solid #dddddd;
+    background: #ffc107;
+    color: #333333;
+    font-weight: bold;
+}
+
+/* selectable */
+
+#feedback { 
+    font-size: 1.4em;
+ }
+  #selectable .ui-selecting {
+     background: #FECA40; 
+    }
+
+  #selectable .ui-selected {
+     background: #F39814; color: white;
+     }
+
+  #selectable {
+    list-style-type: none;
+    margin: 0;
+    padding: 0; 
+    width: 60%;
+ }
+
+  #selectable li {
+    margin: 3px;
+    padding: 0.4em;
+    font-size: 1.4em;
+    height: 50px;
+}
+
+/* sortable */
+
+#sortable {
+    list-style-type: none;
+    margin: 40px 0px;
+    width: 60%;
+    padding: 0px;
+}
+
+#sortable li {
+     margin: 0 3px 3px 3px; 
+     padding: 0.4em; 
+     padding-left: 1.5em; 
+     font-size: 1.4em; 
+     height: 50px;
+     }
+
+#sortable li span {
+    position: absolute;
+    margin: 10px -25px;
+}
+
+/* portlet */
+
+.column {
+    width: 170px;
+    float: left;
+    padding-bottom: 100px;
+  }
+  .portlet {
+    margin: 0 1em 1em 0;
+    padding: 0.3em;
+  }
+  .portlet-header {
+    padding: 0.2em 0.3em;
+    margin-bottom: 0.5em;
+    position: relative;
+  }
+  .portlet-toggle {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    margin-top: -8px;
+  }
+  .portlet-content {
+    padding: 0.4em;
+  }
+  .portlet-placeholder {
+    border: 1px dotted black;
+    margin: 0 1em 1em 0;
+    height: 50px;
+  }
+  .ui-sortable-handle {
+    -ms-touch-action: none;
+    touch-action: none;
+    cursor: pointer;
+}
+
+/* sortable include & exclude */
+
+#sortable1, #sortable2 { 
+    list-style-type: none; 
+    margin: 0; padding: 0; 
+    zoom: 1; 
+}
+
+#sortable1 li, #sortable2 li { margin: 0 5px 5px 5px; 
+    padding: 3px; 
+    width: 90%; 
+}
+
+ 
+  /* Specify which items are sortable */
+  
+  .container-10 {
+    margin: 60vh 0vh 5vh;
+}
+h3.docs {
+    padding: 25px 0px;
+}
+input[type="radio"] {
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color: #F39814;
+}
